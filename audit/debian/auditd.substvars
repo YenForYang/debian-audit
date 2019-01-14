@@ -1,0 +1,3 @@
+shlibs:Depends=libaudit1 (>= 1:2.8.4-3), libauparse0 (>= 1:2.8.4-3), libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.6.dfsg.2), libwrap0 (>= 7.6-4~)
+misc:Depends=
+misc:Pre-Depends=

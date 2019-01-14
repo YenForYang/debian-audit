@@ -1,0 +1,12 @@
+Package: audispd-plugins-dbgsym
+Source: audit
+Version: 1:2.8.4-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 157
+Depends: audispd-plugins (= 1:2.8.4-3)
+Section: debug
+Priority: optional
+Description: debug symbols for audispd-plugins
+Build-Ids: 3f04f26d639ef6d559e648b3a3b91f17e3ca2a10 a77cb606f1b95edfb5c0232cff0c9e1e499e7ce7 afa5105f1c6afb68723d37d41bf2a5f843200d12

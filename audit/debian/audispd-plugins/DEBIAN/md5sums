@@ -1,0 +1,12 @@
+149626a5addedecc8cbdf9be5064424e  sbin/audisp-prelude
+0718acabc79e8cf012798e5d5c2d9edc  sbin/audisp-remote
+4cf3ade8ccb628bb539ebed4d8a1d2b6  sbin/audispd-zos-remote
+900eacf8fd08ce5fdd4841cf12dd80ea  usr/share/doc/audispd-plugins/changelog.Debian.gz
+6e73922205eedc748eec15a014babd5c  usr/share/doc/audispd-plugins/changelog.gz
+e0b5eb3967670fa03734aa1f179836fb  usr/share/doc/audispd-plugins/copyright
+e9cf351e5ea325fef3ce89e59bbd930f  usr/share/man/man5/audisp-prelude.conf.5.gz
+785ca3710617ea77c603c2aac8eef661  usr/share/man/man5/audisp-remote.conf.5.gz
+9c380998050225d97bdef39fb29d300e  usr/share/man/man5/zos-remote.conf.5.gz
+9635cd7692b43de32b33de8cf1e4c0a4  usr/share/man/man8/audisp-prelude.8.gz
+ea760fe34fe2f9a4ed14f89910f1fde5  usr/share/man/man8/audisp-remote.8.gz
+7e55f39a9cb9cbb7015c528056eb4938  usr/share/man/man8/audispd-zos-remote.8.gz

@@ -1,0 +1,6 @@
+python:Depends=python (<< 2.8), python (>= 2.7~), python:any, python:any (<< 2.8), python:any (>= 2.7~)
+python:Provides=python2.7-audit
+python:Versions=2.7
+shlibs:Depends=libaudit1 (>= 1:2.8.4-3), libauparse0 (>= 1:2.8), libc6 (>= 2.14)
+misc:Depends=
+misc:Pre-Depends=

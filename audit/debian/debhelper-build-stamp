@@ -1,0 +1,10 @@
+auditd
+libauparse0
+libauparse-dev
+libaudit1
+libaudit-common
+libaudit-dev
+python-audit
+python3-audit
+golang-redhat-audit-dev
+audispd-plugins

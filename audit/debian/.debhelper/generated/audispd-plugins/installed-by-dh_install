@@ -1,0 +1,15 @@
+debian/tmp/etc/audisp/audisp-prelude.conf
+debian/tmp/etc/audisp/audisp-remote.conf
+debian/tmp/etc/audisp/plugins.d/au-prelude.conf
+debian/tmp/etc/audisp/plugins.d/au-remote.conf
+debian/tmp/etc/audisp/plugins.d/audispd-zos-remote.conf
+debian/tmp/etc/audisp/zos-remote.conf
+debian/tmp/sbin/audisp-prelude
+debian/tmp/sbin/audisp-remote
+debian/tmp/sbin/audispd-zos-remote
+debian/tmp/usr/share/man/man5/audisp-prelude.conf.5
+debian/tmp/usr/share/man/man5/audisp-remote.conf.5
+debian/tmp/usr/share/man/man5/zos-remote.conf.5
+debian/tmp/usr/share/man/man8/audisp-prelude.8
+debian/tmp/usr/share/man/man8/audisp-remote.8
+debian/tmp/usr/share/man/man8/audispd-zos-remote.8

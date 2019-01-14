@@ -1,0 +1,13 @@
+Package: libauparse0-dbgsym
+Source: audit
+Version: 1:2.8.4-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 155
+Depends: libauparse0 (= 1:2.8.4-3)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libauparse0
+Build-Ids: 02b8a57be081d298743d2f7cd4cf719bba158572

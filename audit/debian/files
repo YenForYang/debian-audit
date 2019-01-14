@@ -1,0 +1,17 @@
+audispd-plugins-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+audispd-plugins_2.8.4-3_amd64.deb admin optional
+audit_2.8.4-3_amd64.buildinfo libs optional
+auditd-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+auditd_2.8.4-3_amd64.deb admin optional
+golang-redhat-audit-dev_2.8.4-3_all.deb devel optional
+libaudit-common_2.8.4-3_all.deb libs optional
+libaudit-dev_2.8.4-3_amd64.deb libdevel optional
+libaudit1-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+libaudit1_2.8.4-3_amd64.deb libs optional
+libauparse-dev_2.8.4-3_amd64.deb libdevel optional
+libauparse0-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+libauparse0_2.8.4-3_amd64.deb libs optional
+python-audit-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+python-audit_2.8.4-3_amd64.deb python optional
+python3-audit-dbgsym_2.8.4-3_amd64.deb debug optional automatic=yes
+python3-audit_2.8.4-3_amd64.deb python optional

@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://salsa.debian.org/debian/audit.git
+	fetch = +refs/heads/debian:refs/remotes/origin/debian
+[branch "debian"]
+	remote = origin
+	merge = refs/heads/debian
+[user]
+	email = Richard Yang <richard@yenforyang.com>

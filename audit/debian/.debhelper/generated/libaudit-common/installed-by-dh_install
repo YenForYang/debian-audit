@@ -1,0 +1,2 @@
+debian/tmp/etc/libaudit.conf
+debian/tmp/usr/share/man/man5/libaudit.conf.5

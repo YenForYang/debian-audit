@@ -1,0 +1,12 @@
+Package: python-audit-dbgsym
+Source: audit
+Version: 1:2.8.4-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 208
+Depends: python-audit (= 1:2.8.4-3)
+Section: debug
+Priority: optional
+Description: debug symbols for python-audit
+Build-Ids: 276e28c4d00ade8166104cc8421b46dac3d1269d c6c9288643e8cdcdb1f1699cb6cf810082ac397d

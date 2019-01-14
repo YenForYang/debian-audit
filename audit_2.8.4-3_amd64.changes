@@ -1,0 +1,80 @@
+Format: 1.8
+Date: Mon, 01 Oct 2018 10:01:09 +0200
+Source: audit
+Binary: auditd libauparse0 libauparse-dev libaudit1 libaudit-common libaudit-dev python-audit python3-audit golang-redhat-audit-dev audispd-plugins
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 1:2.8.4-3
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Changed-By: Ondřej Nový <onovy@debian.org>
+Description:
+ audispd-plugins - Plugins for the audit event dispatcher
+ auditd     - User space tools for security auditing
+ golang-redhat-audit-dev - Go client bindings for the libaudit library
+ libaudit-common - Dynamic library for security auditing - common files
+ libaudit-dev - Header files and static library for security auditing
+ libaudit1  - Dynamic library for security auditing
+ libauparse-dev - Header files and static library for the libauparse0 library
+ libauparse0 - Dynamic library for parsing security auditing
+ python-audit - Python bindings for security auditing
+ python3-audit - Python3 bindings for security auditing
+Changes:
+ audit (1:2.8.4-3) UNRELEASED; urgency=medium
+ .
+   * d/copyright: Use https protocol in Format field
+Checksums-Sha1:
+ 117ebc3001c427fe7caa8dabee8e1d17f737f848 101308 audispd-plugins-dbgsym_2.8.4-3_amd64.deb
+ 2dad1c9702d1e0b6bf752781c07b78573f77f3a8 114172 audispd-plugins_2.8.4-3_amd64.deb
+ c89bcedb10056b7267bb89e1b75846a3d825c26d 12870 audit_2.8.4-3_amd64.buildinfo
+ 1c72f7504c90eda0d3f168c9b147d00f577a3333 388776 auditd-dbgsym_2.8.4-3_amd64.deb
+ 70222e308b569a0433ebff356f2cdf3ad7c816d0 315572 auditd_2.8.4-3_amd64.deb
+ 416924f62a7504edd0a0d101a8b5875d4828a58f 22328 golang-redhat-audit-dev_2.8.4-3_all.deb
+ df504ab81b54fc20ed02c8fe36ef1864ace85a8b 22348 libaudit-common_2.8.4-3_all.deb
+ 33b0d6482aed05d44b2add7c9ed03678f941fd66 437068 libaudit-dev_2.8.4-3_amd64.deb
+ 4596120623d6abebaf6601bab92caa938c04f0be 49220 libaudit1-dbgsym_2.8.4-3_amd64.deb
+ 7ce9ab4ba536b9042a5c7cb73bee7d931ba018ce 89540 libaudit1_2.8.4-3_amd64.deb
+ ba90e33a6af749c783bb50f8a55ed3f45d984774 814240 libauparse-dev_2.8.4-3_amd64.deb
+ caee17e76b0aec8270c1de5a26cee59141716db4 131372 libauparse0-dbgsym_2.8.4-3_amd64.deb
+ 25d659e379d5db016177527faf73010cf37d74f1 130120 libauparse0_2.8.4-3_amd64.deb
+ 53b6a00acedb5d5fa80f162a466f19c58bb13c0b 156948 python-audit-dbgsym_2.8.4-3_amd64.deb
+ 82c3284e56cdb1f4cc3f16deb02a43365c99743d 150016 python-audit_2.8.4-3_amd64.deb
+ af0cf3b1efed1796928a9b6643c9ad99b3160a4e 147716 python3-audit-dbgsym_2.8.4-3_amd64.deb
+ 28e75bf8054427e6730e819666b8dc36530c4094 140764 python3-audit_2.8.4-3_amd64.deb
+Checksums-Sha256:
+ 10da89dcef911f2d0ba25d866fcfef73c5b3fc45e7ffdaedaa36b6a473bfe301 101308 audispd-plugins-dbgsym_2.8.4-3_amd64.deb
+ 4898adac3654ef0faae15ea9b99c37c69112f394c59c339f0872f22d878090d8 114172 audispd-plugins_2.8.4-3_amd64.deb
+ ecba5ef3a3db94045aa57b9af7011d8a171865dc9e1cb7c34603d394f4797d95 12870 audit_2.8.4-3_amd64.buildinfo
+ 19346df030fe19e3ba9d028f1c3e95b9b68336a6e83aeee4cd8ebf2f792a30e8 388776 auditd-dbgsym_2.8.4-3_amd64.deb
+ 859d44c16d87421211c87c93fc8ce3210b68e2fc916eac29860bf792d2622166 315572 auditd_2.8.4-3_amd64.deb
+ 67a2678951f041fa80039970b67e5a2f09ef759be87fbef1b91baa1f3266f890 22328 golang-redhat-audit-dev_2.8.4-3_all.deb
+ bce3aaf01b1cf89c0dbb0e534ef097e43cd24fe3152ebbeb87d6f73a3c4b687f 22348 libaudit-common_2.8.4-3_all.deb
+ cfa2b82a139e8d9d84dc08a8940ff98ca87fc6085c4ce49fb7ad235dd1064c5e 437068 libaudit-dev_2.8.4-3_amd64.deb
+ 8d00cc023d81b97861ca482e2f59b65a3b7dcfa20d548aa7c3b8676c1cf2524c 49220 libaudit1-dbgsym_2.8.4-3_amd64.deb
+ 2a14ab4d0cb8305c58759e3c23d9ed84682e141393576881239236eaf3d298df 89540 libaudit1_2.8.4-3_amd64.deb
+ 662527d3f256cfead1580a0252a280a3c1835b8d42c45b786c3dfdecf83c8d0c 814240 libauparse-dev_2.8.4-3_amd64.deb
+ acf62bcd83045eb5f3e09bd7f2a9068ed87cb350a78ef8ef4ed17a1d041f5276 131372 libauparse0-dbgsym_2.8.4-3_amd64.deb
+ 7143a3fd78104f6771404723e0324a51607d08e9f42731dbd9e23c73dbf585a0 130120 libauparse0_2.8.4-3_amd64.deb
+ 8137447753ff80d9fa73b6b3d8faa4375fe5df03b979b3b61a7cb4bf1cef7df7 156948 python-audit-dbgsym_2.8.4-3_amd64.deb
+ 8e6aca3ba48d1ec8bd2ca295a185626c06e35d1308f3415139808ad37e85283a 150016 python-audit_2.8.4-3_amd64.deb
+ 32425157e4f0267834426d076d11103b3dc2eb3163cbaa558115180482c61fba 147716 python3-audit-dbgsym_2.8.4-3_amd64.deb
+ 408403adcadf926d2dd1cde303c911f8b1fb7f5b987b944cec2784dc78139ea6 140764 python3-audit_2.8.4-3_amd64.deb
+Files:
+ a380d683f3fc58a9f04443d1d3cbcecd 101308 debug optional audispd-plugins-dbgsym_2.8.4-3_amd64.deb
+ cf9f8aeea867ccf01bfb408ea16fc22c 114172 admin optional audispd-plugins_2.8.4-3_amd64.deb
+ c552112d1684004b4a4e8a110d50ff43 12870 libs optional audit_2.8.4-3_amd64.buildinfo
+ e0dd5a2ba7e5ae28c76d70854bd9289f 388776 debug optional auditd-dbgsym_2.8.4-3_amd64.deb
+ 5bdeb054b1c281ba511c41cdbceb75fb 315572 admin optional auditd_2.8.4-3_amd64.deb
+ 76a0eeabf87a8ba7ab01e23c30124d43 22328 devel optional golang-redhat-audit-dev_2.8.4-3_all.deb
+ 30b7a8549831bde0d0e643570af8ae29 22348 libs optional libaudit-common_2.8.4-3_all.deb
+ 5159a202586df985d98a391b2365ee8e 437068 libdevel optional libaudit-dev_2.8.4-3_amd64.deb
+ 777f6449cf34ea7961b86b958dd0599b 49220 debug optional libaudit1-dbgsym_2.8.4-3_amd64.deb
+ fc6c0b91c16d9d2cdf8783a384f3a945 89540 libs optional libaudit1_2.8.4-3_amd64.deb
+ 52efb4c6c2608144b04a34afd9016fd0 814240 libdevel optional libauparse-dev_2.8.4-3_amd64.deb
+ 9f625c54d89a2afdddec0f5ee42b3568 131372 debug optional libauparse0-dbgsym_2.8.4-3_amd64.deb
+ 862775d7c3c14c52a1581daae98f512e 130120 libs optional libauparse0_2.8.4-3_amd64.deb
+ d2f13d887804b85c9ec62e051b2a3842 156948 debug optional python-audit-dbgsym_2.8.4-3_amd64.deb
+ 92d4efb59cb77919713b871b332b6d28 150016 python optional python-audit_2.8.4-3_amd64.deb
+ f93abc356abbefc46cf601466a3ab0d6 147716 debug optional python3-audit-dbgsym_2.8.4-3_amd64.deb
+ 77702b6af583eb78b5de558b056d0221 140764 python optional python3-audit_2.8.4-3_amd64.deb
